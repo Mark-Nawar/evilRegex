@@ -32,7 +32,7 @@ install_github("qinwf/re2r", build_vignettes = T)
 
 4-Install this package evilRegex( RE2R-back-on-CRAN):
 ```
-install_github("Mark-Nawar/RE2R-back-on-CRAN", build_vignettes = T)
+install_github("Mark-Nawar/evilRegex", build_vignettes = T)
 ```
 
 
