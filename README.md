@@ -116,6 +116,8 @@ As you see on the linear scale they all took almost 0 seconds
 # Let's Now try an Evil Pattern that will show the real power of polonomial complexity:
 
 Now lets try our the function evilRegex() ```pattern <- "^(a+)+$" ```
+
+
 ```subject<-paste(rep(c("a","X"), c(N,1)), collapse="") ```  where subject = ax (N=1) , =aax(N=2), = aaax(N=3) and so on
 
 
@@ -137,6 +139,7 @@ Can you spot the big differnece between TRE,RE2 and ICU,PCRE
 this will become more clear with the following graphs:
 
 ![figure-complexity-linear](https://user-images.githubusercontent.com/62334815/111854369-9adf7e00-8927-11eb-95aa-af6647ec5d39.png)
+
 ![figure-complexity-log](https://user-images.githubusercontent.com/62334815/111854375-9f0b9b80-8927-11eb-937b-2b30dbc78916.png)
 
 
