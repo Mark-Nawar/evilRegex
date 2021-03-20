@@ -1,3 +1,5 @@
+![figure-complexity-linear-good](https://user-images.githubusercontent.com/62334815/111854343-68358580-8927-11eb-92dc-36450dc3043e.png)
+![figure-complexity-log-good](https://user-images.githubusercontent.com/62334815/111854345-6ff52a00-8927-11eb-8b15-1a4c6c269603.png)
 # RE2R-back-on-CRAN
 # R package that benchmark regular expression functions.
 # To install this package follow the following steps carefully:
