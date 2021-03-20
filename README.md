@@ -1,5 +1,4 @@
-![figure-complexity-linear-good](https://user-images.githubusercontent.com/62334815/111854343-68358580-8927-11eb-92dc-36450dc3043e.png)
-![figure-complexity-log-good](https://user-images.githubusercontent.com/62334815/111854345-6ff52a00-8927-11eb-8b15-1a4c6c269603.png)
+
 # RE2R-back-on-CRAN
 # R package that benchmark regular expression functions.
 # To install this package follow the following steps carefully:
@@ -107,6 +106,38 @@ Unit: microseconds
 noting that the numbers are in micro seconds so in linear time we can assume that the 4 methods consumed 0 seconds, but how will the results change 
 when the no of possible comparisions greatly increse ( EVIL regular expression)???
 
+![figure-complexity-linear-good](https://user-images.githubusercontent.com/62334815/111854343-68358580-8927-11eb-92dc-36450dc3043e.png)
+![figure-complexity-log-good](https://user-images.githubusercontent.com/62334815/111854345-6ff52a00-8927-11eb-8b15-1a4c6c269603.png)
+
+As you see on the linear scale they all took almost 0 seconds
+
+---
+
+# Let's Now try an Evil Pattern that will show the real power of polonomial complexity:
+
+Now lets try our the function evilRegex() ```pattern <- "^(a+)+$" ```
+```subject<-paste(rep(c("a","X"), c(N,1)), collapse="") ```  where subject = ax (N=1) , =aax(N=2), = aaax(N=3) and so on
+
+
+```
+evilRegex::evilRegex()
+
+```
+Timings from micro benchmark:
+```
+N.times
+Unit: microseconds
+ expr       min        lq       mean     median        uq       max neval
+  ICU 2134799.1 2147828.3 2193954.75 2174281.80 2191353.4 2384468.1    10
+ PCRE  222484.6  225298.7  234283.99  232554.05  240938.2  249156.0    10
+  TRE      11.4      28.4      32.25      31.65      38.8      46.7    10
+  RE2      58.6      67.4     104.57     111.95     127.8     148.0    10
+```
+Can you spot the big differnece between TRE,REw and ICU,PCRE
+this will become more clear with the following graphs:
+
+![figure-complexity-linear](https://user-images.githubusercontent.com/62334815/111854369-9adf7e00-8927-11eb-95aa-af6647ec5d39.png)
+![figure-complexity-log](https://user-images.githubusercontent.com/62334815/111854375-9f0b9b80-8927-11eb-937b-2b30dbc78916.png)
 
 
 
