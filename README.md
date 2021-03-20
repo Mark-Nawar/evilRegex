@@ -113,7 +113,7 @@ As you see on the linear scale they all took almost 0 seconds
 
 ---
 
-# Let's Now try an Evil Pattern that will show the real power of polonomial complexity:
+# Let's Now try an Evil Pattern that will show the real power of polynomial complexity:
 
 Now lets try our the function evilRegex() ```pattern <- "^(a+)+$" ```
 
