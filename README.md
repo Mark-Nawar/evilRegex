@@ -39,4 +39,8 @@ install_github("Mark-Nawar/evilRegex/evilRegex/", build_vignettes = T)
 browseVignettes("evilRegex")
 ```
 
+---
+
+
+
 
