@@ -1,8 +1,8 @@
 ---
-title: "The Evil Regex"
+title: "The_Evil_Regex"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{The Evil Regex}
+  %\VignetteIndexEntry{The_Evil_Regex}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
