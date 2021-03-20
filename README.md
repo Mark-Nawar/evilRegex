@@ -71,7 +71,7 @@ Now We will compare the performance of the 4 functions to see which one is faste
 this pattern is not evil( in terms of complexity it is relatively simple ). Let's benchmark it and see!
 
 The timing figures for the following benchmark note:
-```
+```r
 homicides <- readLines("homicides.txt")
   max.N <- 25
   times.list <- list()
