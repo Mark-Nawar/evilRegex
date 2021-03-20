@@ -135,6 +135,7 @@ Unit: microseconds
   TRE      11.4      28.4      32.25      31.65      38.8      46.7    10
   RE2      58.6      67.4     104.57     111.95     127.8     148.0    10
 ```
+TRE might be slighty better than RE2 but it doesn't support named capture and that makes RE2 much more useful.
 Can you spot the big differnece between TRE,RE2 and ICU,PCRE
 this will become more clear with the following graphs:
 
