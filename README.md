@@ -38,7 +38,7 @@ install_github("Mark-Nawar/evilRegex/evilRegex/", build_vignettes = T)
 ```
 browseVignettes("evilRegex")
 ```
-
+# THIS IS THE CONTENT OF THE VIGNETTE do not proceed if you already downloaded the package use step 5 and you will be redirected to an HTML page
 ---
 Regular expressions simply help us extract some text patterns from large texts below is an example to extract some dates from a 5MB text file 
 related to homicides in the united states you can find the text file from [Kaggle](https://www.kaggle.com/lenron1671/homicides). You can see a sample of the text structure below:
