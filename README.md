@@ -34,6 +34,9 @@ install_github("qinwf/re2r", build_vignettes = T)
 ```
 install_github("Mark-Nawar/evilRegex/evilRegex/", build_vignettes = T)
 ```
-
+5-To browse through the vignette of the package where the timing figures are: 
+```
+browseVignettes("evilRegex")
+```
 
 
