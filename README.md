@@ -3,7 +3,7 @@
 # To install this package follow the following steps carefully:
 
 note: you have to have Rstudio installled on your machine follow the instructions [here](https://rstudio.com/products/rstudio/download/) to download it if you don't already have it.
-
+# TEST NO1 (create a package with a vignette containg the new timing figures:
 
 1- Install Rtools:  [click here](https://cran.r-project.org/bin/windows/Rtools/) and type the following code in the R console
 ```
@@ -32,7 +32,7 @@ install_github("qinwf/re2r", build_vignettes = T)
 
 4-Install this package evilRegex( RE2R-back-on-CRAN):
 ```
-install_github("Mark-Nawar/evilRegex", build_vignettes = T)
+install_github("Mark-Nawar/evilRegex/evilRegex/", build_vignettes = T)
 ```
 
 
