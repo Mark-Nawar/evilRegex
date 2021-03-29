@@ -143,6 +143,8 @@ this will become more clear with the following graphs:
 ![figure-complexity-linear](https://user-images.githubusercontent.com/62334815/111854369-9adf7e00-8927-11eb-95aa-af6647ec5d39.png)
 ![figure-complexity-log](https://user-images.githubusercontent.com/62334815/111854375-9f0b9b80-8927-11eb-937b-2b30dbc78916.png)
 
+---
+
 # Test NO2 Medium:write some R code that tests for unicode support in each of the 3 currently available regex engines (PCRE, TRE, ICU).
 The following code tests the unicode support in the three engines. I am Egyptian so I will test the phrase "I Love Egypt" for 8 different languages and try to find the word "EGYPT"
 
