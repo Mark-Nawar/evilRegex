@@ -18,7 +18,7 @@ Sys.which("make")
 
 2- Install devtools:
 ```
-install. packages("devtools")
+install.packages("devtools")
 library(devtools)
 ```
 
